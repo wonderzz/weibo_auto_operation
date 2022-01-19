@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T03:12:22.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.4" etag="ROm6Sz1hkgvuUzsTNN4J" type="github"><diagram id="IWHJDsYruJYU9q4U-HdP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-19T00:44:01.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VM8XECHHElc1RRiqjoUB" version="16.2.7" type="github">
+  <diagram id="IWHJDsYruJYU9q4U-HdP" name="第 1 页">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9SGXsBpfTr1heTDNFL89-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-1" target="9SGXsBpfTr1heTDNFL89-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="369" y="19" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-2" target="9SGXsBpfTr1heTDNFL89-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-2" value="加载主配置文件" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-5" target="9SGXsBpfTr1heTDNFL89-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-5" target="9SGXsBpfTr1heTDNFL89-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-5" target="9SGXsBpfTr1heTDNFL89-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-5" value="判断配置方式" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="379" y="309" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-7" value="数据库加载" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="479" y="319" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-9" value="文件加载" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="409" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-11" value="远程调用加载" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="319" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SGXsBpfTr1heTDNFL89-14" target="9SGXsBpfTr1heTDNFL89-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SGXsBpfTr1heTDNFL89-14" value="初始化基础类文件" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="139" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
